@@ -134,7 +134,7 @@
 		clear: left;
 		}
 	body {
-		background-image: url("leyla-portfolio\images\bluefade.jpg");
+		background-image: url(../images/backgroundimagebluefade.jpg);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
