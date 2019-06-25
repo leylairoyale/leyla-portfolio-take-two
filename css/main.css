@@ -1,0 +1,236 @@
+* {
+	box-sizing: border-box;
+	}	
+
+	#header {
+		background-color: #a18cb8;
+		opacity: .7;
+		font-family: helvetica; 
+		text-align: center;
+		border-radius: 10px;
+		border-style: solid;
+		border-width: thin;
+		border-color: gray;
+		margin: 5px;
+		padding: 1px;
+	}
+	#h4 {	
+		text-decoration: bold;
+		display: inline-block;
+		color: black;
+		font-family: helvetica; 
+	}
+	#h4 li a:hover {
+		background-color: #665959;
+		color: white; 
+	}
+	#headshot {
+		border-radius: 100px;
+		border: solid;
+		border-width: thin;
+		margin: 0px 5px 0px 5px;
+		width: 100px;
+		height: 100px;
+		
+		}
+	#nav {
+		list-style-type: none;
+		margin: 0px 5px 0px 5px;
+		padding: 0px;
+		overflow: hidden;
+		background-color: #604d9e;
+		opacity: 1;
+		border-radius: 0px 0px 10px 10px; 
+		position: sticky;
+		top: 0;
+		z-index: 1;
+		
+		}
+	#links {
+		float: left;
+		}
+	#nav li a {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 10px;
+		text-decoration: none;
+		float: left;
+		}
+	#nav li a:hover {
+		background-color: #665959;
+		color: white; 
+		}
+	#deathlinks ul {
+		list-style-type: none;
+		margin: 10px 0px 10px 0px;
+		padding: 0px;
+		overflow: hidden;
+		background-color: #e0d3ef;
+		opacity: .8;
+		border-radius: 0px;
+		}
+
+	#deathlinks li a {
+		display: inline-block;
+		color: black;
+		text-align: center;
+		padding: 10px;
+		text-decoration: none;
+		
+		}
+	#deathlinks li a:hover {
+		background-color: #665959;
+		color: white;
+		width: 100%;
+		}
+
+	.leftcolumn {
+		float: left;
+		width: 75%;
+		}
+	.rightcolumn {
+		float: right;
+		width: 25%;
+		}
+	.row:after {
+		content: "";
+	display: table;
+	clear: both;
+		}
+	.card {
+		background-color: #665959;
+		}
+		
+	#rose {
+		max-width: 100px;
+		max-height: 100px;
+		}	
+
+	#aboutme {
+		background-color: #e0d3ef;
+		opacity: .8;
+		border-style: solid;
+		border-width: thin;
+		border-radius: 20px;
+		border-color: gray;
+		text-align: center;
+		padding: 10px;
+		margin: 5px;
+		float: left;
+		clear: left;
+		}
+	#coding {
+		background-color: #e0d3ef;
+		opacity: .8;
+		border-style: solid;
+		border-width: thin;
+		border-color: gray;
+		border-radius: 20px;
+		padding: 10px;
+		text-align: center;
+		margin: 5px;
+		float: left;
+		clear: left;
+		}
+	body {
+		background-image: url("leyla-portfolio\images\bluefade.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		font-family: helvetica;		
+		}
+	#footer {
+		text-align: center;
+		font-size: 10px;
+		padding: 10px;
+		text-decoration: none;
+		display: block;
+		position: bottom;
+		}
+	.fa {
+		border: none;
+		padding: 0px;
+		display: block;
+		font-size: 30px;
+		float: right;
+		max-height: 50px;
+		}
+	.fa-instagram {
+ 		 background: rgb(251, 57, 88);
+ 		 color: white; 
+		float: right;
+		}
+	.fa-linkedin {
+		background: #007bb5;
+		color: white;
+		float: right;
+		}
+	.fa-twitter {
+		background: #55acee;
+		color: white;
+		float: right;
+		}
+	#social {
+		float: right;
+		}
+	@media screen and (max-width: 500px) {
+		.leftcolumn, .rightcolumn {
+			width: 100%;
+			padding: 0;
+			}
+		}
+	@media screen and (max-width: 400px) {
+		.ul {
+		float: none;
+		width: 100%;
+			}
+		}
+	#mystory {
+		text-align: center;
+		padding: 10px;
+		margin: 5px;
+		border-style: solid;
+		border-color: gray;
+		border-radius: 10px;
+		border-width: thin;
+		background-color: #e0d3ef;
+		opacity: .8;
+		}
+	#deathlinks {
+		text-align: center;
+		border-style: solid;
+		border-width: thin;
+		border-color: gray;
+		border-radius: 10px;
+		background-color: #e0d3ef;
+		opacity: .8;
+		}
+	input {
+		padding: 4px;
+		border-radius: 10px;
+		border-color: gray;
+		margin: 2px;
+		box-sizing: border-box;
+		background-color: #a27eb8;
+		color: black;
+		opacity: .9;
+		position: center;
+		}
+	#logo {
+		max-width: 50px;
+		max-height: 50px;
+		border-radius: 100px;
+		float: left;
+		padding: 2px 2px 2px 10px; 
+		}
+	#form {
+		text-decoration: none;
+		text-align: center;
+		padding: 5px;
+		}
+
+
+/*do a transparent background of a vacation pic, barely noticeable. do a form to hunt through
+dead in chicago via its tags (or better yet, a randomizer). the color pallette is from https://colorpalettes.net/color-palette-3434/ and also https://colorpalettes.net/color-palette-1519/ and also https://colorpalettes.net/?color1=1355&color2=1313  */
+	
